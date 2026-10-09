@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Privacy Policy and Terms of Use for the Psychological Assessment Tool.">
+
+    <title>Legal Information | Psychological Assessment Tool</title>
+
+    <style>
+        :root {
+            --background: #f8fafc;
+            --surface: #ffffff;
+            --primary: #2563eb;
+            --primary-dark: #1e3a8a;
+            --text: #172033;
+            --muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: var(--background);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 24px 20px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-weight: bold;
+            color: var(--primary-dark);
+        }
+
+        main {
+            width: min(100% - 32px, 760px);
+            margin: 64px auto;
+            flex: 1;
+        }
+
+        .intro {
+            margin-bottom: 32px;
+        }
+
+        h1 {
+            margin-bottom: 12px;
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            line-height: 1.2;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: var(--primary-dark);
+        }
+
+        p {
+            color: var(--muted);
+        }
+
+        .document-card {
+            display: block;
+            margin: 16px 0;
+            padding: 24px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            text-decoration: none;
+            transition: border-color 0.2s ease,
+                        transform 0.2s ease;
+        }
+
+        .document-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .document-card h2 {
+            margin-bottom: 8px;
+        }
+
+        .document-card p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 24px 20px;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 40px auto;
+            }
+
+            .document-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            Psychological Assessment Tool
+        </div>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h1>Legal Information</h1>
+
+            <p>
+                Find information about how the Psychological Assessment
+                Tool handles privacy and the conditions for using
+                the assessment.
+            </p>
+        </section>
+
+        <a class="document-card" href="privacy.html">
+            <h2>Privacy Policy →</h2>
+            <p>
+                Learn about information collected through the assessment,
+                how it is used, and how privacy is addressed.
+            </p>
+        </a>
+
+        <a class="document-card" href="terms.html">
+            <h2>Terms of Use →</h2>
+            <p>
+                Read the conditions and limitations that apply when
+                using the assessment.
+            </p>
+        </a>
+
+    </main>
+
+    <footer>
+        Educational project · Psychological Assessment Tool
+    </footer>
+
+</body>
+</html>
